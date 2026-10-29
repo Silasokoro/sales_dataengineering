@@ -117,11 +117,7 @@ This repository should contain code and documentation, not credentials or confid
 
 This README documents the implementation described for this project: Google Sheets source datasets, ADLS Gen2 landing, incremental ingestion with `COPY INTO`, Unity Catalog, Medallion transformations, and Databricks Job orchestration. It does **not** claim that Azure Data Factory, Bicep infrastructure deployment, automated CI/CD, a Power BI dashboard, or specific production-scale performance benchmarks are implemented.
 
-product_id,product_name,product_category,product_price,num_orders,units_sold,net_revenue,total_discount,discount_rate_pct,last_sold_date
-3,where,Home Goods,555.38,9,30,12909.14,91.13,0.70,2023-12-05
-5,decide,Home Goods,201.97,13,31,6067.11,96.98,1.57,2023-12-05
-4,economic,Electronics,123.91,14,43,5069.15,129.49,2.49,2023-12-05
-2,rise,Electronics,236.01,7,22,5032.90,79.66,1.56,2023-12-05
+
 
 
 ## Author
