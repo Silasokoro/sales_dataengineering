@@ -19,8 +19,9 @@ Orchestration — the Databricks Job Salesautopipeline coordinates task dependen
 
 Quality checks — the dq task runs as part of the workflow.
 
-Architecture
+# Architecture
 
+<img width="1801" height="242" alt="sales_pipeline_architecture" src="https://github.com/user-attachments/assets/2fba7ec4-0f00-43b7-9ac8-c284ed6f3c72" />
 
 
 See Architecture notes for the responsibilities of each layer and Pipeline runbook for execution guidance.
