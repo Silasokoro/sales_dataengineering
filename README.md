@@ -1,4 +1,5 @@
-# sales_dataengineering
+# Sales Data Engineering Pipeline
+
 An end-to-end batch data engineering project that moves sales, customer, and product datasets from Google Sheets into Azure Data Lake Storage Gen2 (ADLS Gen2), then processes them in Azure Databricks using `COPY INTO`, Unity Catalog, Delta tables, and the Medallion Architecture.
 
 The Databricks workflow **`Salesautopipeline`** orchestrates the configuration, Bronze, Silver, Gold, and data-quality tasks.

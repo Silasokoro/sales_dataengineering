@@ -1,0 +1,30 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+credentials.json
+secrets.json
+
+# Data exports - do not commit raw datasets by default
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.xlsx
+*.xls
+
+# Local Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
