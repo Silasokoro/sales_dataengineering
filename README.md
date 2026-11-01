@@ -13,7 +13,8 @@ The pipeline turns source datasets into a structured lakehouse flow:
 3. **Incremental ingestion** — Databricks `COPY INTO` loads new source files into the Bronze layer.
 4. **Transformation** — data moves through Bronze, Silver, and Gold tables registered in Unity Catalog.
 5. **Orchestration** — the Databricks Job `Salesautopipeline` coordinates task dependencies.
-6. **Quality checks** — the `dq` task runs as part of the workflow.
+6. **Programming languages** — Python (using PySpark) and SQL (using Spark SQL).
+7. **Quality checks** — the `dq` task runs as part of the workflow.
 
 ## Architecture
 
@@ -58,6 +59,7 @@ See [Logical data model](docs/data_model.md) for the key assumptions to validate
 - **Delta Lake** — table storage across the Medallion layers.
 - **Unity Catalog** — table governance and organization.
 - **PySpark / Spark SQL** — data processing in Databricks notebooks.
+- **Programming languages** — Python (using PySpark) and SQL (using Spark SQL).
 - **Databricks Jobs** — orchestration through `Salesautopipeline`.
 
 ## Repository structure
